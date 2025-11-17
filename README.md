@@ -9,7 +9,7 @@
 
         
 ### Second Qu and Ans 
-# 2. 
+# 2. Provide an example of using union and intersection types in TypeScript.
 
    **Ans :**  ১. ইউনিয়ন টাইপ : 
 ইউনিয়ন টাইপ TypeScript-এ একটি টাইপ সিস্টেম ফিচার যা একাধিক টাইপকে একত্রিত করে। এটি বলে দেয় যে, একটি ভেরিয়েবল একাধিক টাইপের যেকোনো একটি ধারণ করতে পারে। একে | (পাইপ) চিহ্ন দিয়ে প্রকাশ করা হয়।
