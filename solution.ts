@@ -8,6 +8,7 @@ const formatValue = (value: string | number | boolean) => {
     return (value = !value);
   }
 };
+
 // console.log(formatValue("My nsame is Mofassel Hosain"));
 // console.log(formatValue(6));
 // console.log(formatValue(true));
@@ -19,6 +20,7 @@ const getLength = (value: string | any[]) => {
     return value.length;
   }
 };
+
 // console.log(getLength("Ami ajke onek tried"));
 // console.log(getLength([10, 30]));
 class Person {
@@ -32,10 +34,12 @@ class Person {
     return `Name: ${this.name},  Age : ${this.age}`;
   }
 }
+
 // let person1 = new Person("Mofassel", 20);
 // console.log(person1.getDetails());
 // let person2 = new Person("Ishaq", 26);
 // console.log(person2.getDetails());
+
 type TBooks = {
   title: string;
   rating: number;
@@ -111,6 +115,7 @@ const getUniqueValues = (...UniqueArr: number[][]) => {
 };
 const array1 = [1, 2, 3, 4, 5];
 const array2 = [3, 4, 5, 6, 7];
+
 // console.log(getUniqueValues(array1, array2));
 
 type TProduct = {
@@ -139,4 +144,4 @@ const products = [
   { name: "Bag", price: 50, quantity: 1, discount: 20 },
 ];
 
-console.log(calculateTotalPrice(products));
+// console.log(calculateTotalPrice(products));
